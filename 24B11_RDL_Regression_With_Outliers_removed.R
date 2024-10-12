@@ -33,71 +33,103 @@ data <- data %>%
 # Create a new column for cleaned data, replacing outliers with NA
 data$abs_difference_clean <- ifelse(data$is_not_outlier, data$abs_difference, NA)
 
-# Fit a linear model without random effects, using the cleaned data
-model <- lm(abs_difference_clean ~ sleep_condition * genotype, data = data)
+# Function to check normality and homogeneity of variance
+check_assumptions <- function(data) {
+  # Shapiro-Wilk test for each group
+  normality_tests <- data %>%
+    group_by(genotype, sleep_condition) %>%
+    summarise(
+      shapiro_p = shapiro.test(abs_difference_clean)$p.value,
+      .groups = "drop"
+    )
+  
+  # Bartlett's test for homogeneity of variance
+  bartlett_test <- bartlett.test(abs_difference_clean ~ interaction(genotype, sleep_condition), data = data)
+  
+  list(normality = normality_tests, homogeneity = bartlett_test)
+}
 
-# Summary of the model
-summary(model)
+# Perform assumption checks
+assumptions <- check_assumptions(data)
+print("Normality tests:")
+print(assumptions$normality)
+print("Homogeneity of variance test:")
+print(assumptions$homogeneity)
 
-# Post-hoc analysis with p-value adjustment
-emmeans_results <- emmeans(model, specs = pairwise ~ sleep_condition | genotype)
-emmeans_results_df <- as.data.frame(emmeans_results$contrasts)
-emmeans_results_df$p.value.original <- emmeans_results_df$p.value
-emmeans_results_df$p.value.adjusted <- p.adjust(emmeans_results_df$p.value, method = "BH")
+# Determine if we should use parametric or non-parametric tests
+use_parametric <- all(assumptions$normality$shapiro_p > 0.05) && assumptions$homogeneity$p.value > 0.05
+
+if (use_parametric) {
+  # Fit a linear model
+  model <- lm(abs_difference_clean ~ sleep_condition * genotype, data = data)
+  print(summary(model))
+  
+  # Post-hoc analysis
+  emmeans_results <- emmeans(model, specs = pairwise ~ sleep_condition | genotype)
+  posthoc_results <- as.data.frame(emmeans_results$contrasts)
+} else {
+  # Non-parametric analysis
+  print("Using non-parametric tests due to violations of normality or homogeneity of variance.")
+  
+  # Perform Wilcoxon tests for each genotype
+  posthoc_results <- data %>%
+    group_by(genotype) %>%
+    summarise(
+      p_value = wilcox.test(abs_difference_clean ~ sleep_condition)$p.value,
+      .groups = "drop"
+    )
+}
+
+# Adjust p-values
+posthoc_results$p.value.adjusted <- p.adjust(posthoc_results$p_value, method = "BH")
 
 # Display the results with original and adjusted p-values
-print(emmeans_results_df)
+print(posthoc_results)
 
-# Plot the interaction using cleaned data
-interaction_plot <- ggplot(data, aes(x = sleep_condition, y = abs_difference_clean, color = genotype, group = genotype)) +
-  stat_summary(fun = mean, geom = "line", position = position_dodge(width = 0.2), size = 1, na.rm = TRUE) +
-  stat_summary(fun = mean, geom = "point", position = position_dodge(width = 0.2), size = 3, na.rm = TRUE) +
-  labs(title = "Interaction Plot of Sleep Condition and Genotype on Absolute Difference (Outliers Removed)",
-       x = "Sleep Condition",
-       y = "Absolute Difference",
-       color = "Genotype") +
-  theme_minimal()
-
-# Display the interaction plot
-print(interaction_plot)
+# Calculate summary statistics
+summary_stats <- data %>%
+  group_by(genotype, sleep_condition) %>%
+  summarise(
+    mean = mean(abs_difference_clean, na.rm = TRUE),
+    sd = sd(abs_difference_clean, na.rm = TRUE),
+    median = median(abs_difference_clean, na.rm = TRUE),
+    n = sum(!is.na(abs_difference_clean)),
+    .groups = "drop"
+  )
+print(summary_stats)
 
 # Function to create pairwise comparison plot for each genotype
 plot_pairwise_comparison <- function(genotype) {
   # Subset data for the current genotype
   genotype_data <- data[data$genotype == genotype, ]
   
+  # Get p-value for this genotype
+  p_value <- posthoc_results$p.value.adjusted[posthoc_results$genotype == genotype]
+  sig <- if(p_value < 0.05) "*" else ""
+  
   # Create the boxplot
   p_boxplot <- ggplot(genotype_data, aes(x = sleep_condition, y = abs_difference_clean, fill = sleep_condition)) +
     geom_boxplot(alpha = 0.7) +
-    labs(title = paste("Genotype:", genotype, "(Outliers Removed)"),
-         x = "Sleep Condition", y = "Absolute Difference (rested - SD)") +
-    theme_minimal() +
-    theme(plot.title = element_text(hjust = 0.5)) +
+    labs(title = paste("Genotype:", genotype),
+         x = "Sleep Condition", 
+         y = "Difference Pre-Post Stimulus (mm/s)") +
+    annotate("text", x = 1.5, y = max(genotype_data$abs_difference_clean, na.rm = TRUE), 
+             label = paste("p =", round(p_value, 3), sig), size = 5) +
+    theme_minimal(base_size = 16) +
+    theme(
+      plot.title = element_text(hjust = 0.5, size = 18),
+      axis.text = element_text(size = 14),
+      axis.title = element_text(size = 16)
+    ) +
     scale_fill_manual(values = c("rested" = "blue", "SD" = "red"))
   
   return(p_boxplot)
 }
 
-# List of genotypes to plot
-genotypes <- unique(data$genotype)
-
-# Create a list to store plots
+# Create and display plots
 plots <- list()
-
-# Create pairwise comparison plots for each genotype and store in the list
-for (genotype in genotypes) {
+for (genotype in levels(data$genotype)) {
   plot <- plot_pairwise_comparison(genotype)
   plots[[genotype]] <- plot
 }
-
-# Display boxplots
-grid.arrange(grobs = plots, ncol = 1)
-
-# Perform post-hoc comparisons for specific genotypes with adjusted p-values
-posthoc_comparisons <- emmeans(model, specs = pairwise ~ sleep_condition | genotype)
-posthoc_comparisons_df <- as.data.frame(posthoc_comparisons$contrasts)
-posthoc_comparisons_df$p.value.original <- posthoc_comparisons_df$p.value
-posthoc_comparisons_df$p.value.adjusted <- p.adjust(posthoc_comparisons_df$p.value, method = "BH")
-
-# Display post-hoc comparison results with original and adjusted p-values
-print(posthoc_comparisons_df)
+grid.arrange(grobs = plots, ncol = 3)
