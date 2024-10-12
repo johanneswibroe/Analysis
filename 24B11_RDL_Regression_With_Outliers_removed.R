@@ -33,33 +33,27 @@ data <- data %>%
 # Create a new column for cleaned data, replacing outliers with NA
 data$abs_difference_clean <- ifelse(data$is_not_outlier, data$abs_difference, NA)
 
-# Function to check normality and homogeneity of variance
-check_assumptions <- function(data) {
-  # Shapiro-Wilk test for each group
-  normality_tests <- data %>%
+# Function to check normality
+check_normality <- function(data) {
+  data %>%
     group_by(genotype, sleep_condition) %>%
     summarise(
       shapiro_p = shapiro.test(abs_difference_clean)$p.value,
       .groups = "drop"
     )
-  
-  # Bartlett's test for homogeneity of variance
-  bartlett_test <- bartlett.test(abs_difference_clean ~ interaction(genotype, sleep_condition), data = data)
-  
-  list(normality = normality_tests, homogeneity = bartlett_test)
 }
 
-# Perform assumption checks
-assumptions <- check_assumptions(data)
+# Perform normality checks
+normality_results <- check_normality(data)
 print("Normality tests:")
-print(assumptions$normality)
-print("Homogeneity of variance test:")
-print(assumptions$homogeneity)
+print(normality_results)
 
 # Determine if we should use parametric or non-parametric tests
-use_parametric <- all(assumptions$normality$shapiro_p > 0.05) && assumptions$homogeneity$p.value > 0.05
+use_parametric <- all(normality_results$shapiro_p > 0.05)
 
 if (use_parametric) {
+  print("Using parametric tests.")
+  
   # Fit a linear model
   model <- lm(abs_difference_clean ~ sleep_condition * genotype, data = data)
   print(summary(model))
@@ -67,9 +61,15 @@ if (use_parametric) {
   # Post-hoc analysis
   emmeans_results <- emmeans(model, specs = pairwise ~ sleep_condition | genotype)
   posthoc_results <- as.data.frame(emmeans_results$contrasts)
+  
+  # Test for differences in rested condition
+  rested_data <- data[data$sleep_condition == "rested", ]
+  rested_model <- aov(abs_difference_clean ~ genotype, data = rested_data)
+  rested_results <- TukeyHSD(rested_model)
+  print("Differences in rested condition:")
+  print(rested_results)
 } else {
-  # Non-parametric analysis
-  print("Using non-parametric tests due to violations of normality or homogeneity of variance.")
+  print("Using non-parametric tests.")
   
   # Perform Wilcoxon tests for each genotype
   posthoc_results <- data %>%
@@ -78,12 +78,26 @@ if (use_parametric) {
       p_value = wilcox.test(abs_difference_clean ~ sleep_condition)$p.value,
       .groups = "drop"
     )
+  
+  # Test for differences in rested condition
+  rested_data <- data[data$sleep_condition == "rested", ]
+  rested_results <- kruskal.test(abs_difference_clean ~ genotype, data = rested_data)
+  print("Differences in rested condition:")
+  print(rested_results)
+  
+  # If Kruskal-Wallis test is significant, perform pairwise Wilcoxon tests
+  if (rested_results$p.value < 0.05) {
+    rested_pairwise <- pairwise.wilcox.test(rested_data$abs_difference_clean, rested_data$genotype, p.adjust.method = "BH")
+    print("Pairwise comparisons in rested condition:")
+    print(rested_pairwise)
+  }
 }
 
-# Adjust p-values
+# Adjust p-values for posthoc results
 posthoc_results$p.value.adjusted <- p.adjust(posthoc_results$p_value, method = "BH")
 
 # Display the results with original and adjusted p-values
+print("Post-hoc results:")
 print(posthoc_results)
 
 # Calculate summary statistics
@@ -96,6 +110,7 @@ summary_stats <- data %>%
     n = sum(!is.na(abs_difference_clean)),
     .groups = "drop"
   )
+print("Summary statistics:")
 print(summary_stats)
 
 # Function to create pairwise comparison plot for each genotype
