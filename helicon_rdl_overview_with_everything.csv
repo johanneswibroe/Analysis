@@ -1,0 +1,200 @@
+genotype,sleep_cond,thresh,reaction,individual_slep_lat,sleep_latency,fly,time,matched_file,date,time_of_day,time_simp,day_num,proportion,mp4_file_path,mp4_link
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_w1118,sleeping,100,0,422.211239099503,422.211239099503,3,2025-04-04 17:00:13.485940,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_sleepin_first_woo3.csv,2025-04-04,17:00:13.48594,5,d2,1 / 4 ,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_w1118,sleeping,100,0,1144.45668697357,1144.45668697357,4,2025-04-07 14:16:25.162472,helicon_w1118_monday_sleeping_sd_movement_thresholds.csv,2025-04-07,14:16:25.162472,2,d3,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_w1118_monday_sleeping_sd.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_w1118_monday_sleeping_sd.mp4"">helicon_w1118_monday_sleeping_sd.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,51,1,618.480397224426,618.480397224426,5,2025-04-08 13:08:50.266413,rdl_w1118_sd_sleeping_movement_thresholds.csv,2025-04-08,13:08:50.266413,1,d4,1 / 4 ,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_sd_sleeping.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_sd_sleeping.mp4"">rdl_w1118_sd_sleeping.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,25.56,1,303.046555995941,303.046555995941,6,2025-04-08 15:02:03.328288,rdl_sd_sleep_movement_thresholds.csv,2025-04-08,15:02:03.328288,3,d4,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sd_sleep.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sd_sleep.mp4"">rdl_sd_sleep.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_w1118,sleeping,37.11,1,610.411219358444,610.411219358444,7,2025-04-10 13:12:03.092978,heli_w1118_sleeping_sd_thursday_movement_thresholds.csv,2025-04-10,13:12:03.092978,1,d5,1 / 1,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heli_w1118_sleeping_sd_thursday.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heli_w1118_sleeping_sd_thursday.mp4"">heli_w1118_sleeping_sd_thursday.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_w1118,sleeping,100,0,303.045284032822,303.045284032822,8,2025-04-10 14:44:30.916650,helicon_w1118_sleeping_sd_movement_thresholds.csv,2025-04-10,14:44:30.91665,2,d5,1 / 1,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_w1118_sleeping_sd.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_w1118_sleeping_sd.mp4"">helicon_w1118_sleeping_sd.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_w1118,sleeping,100,0,303.046557664871,303.046557664871,9,2025-04-08 15:02:03.328288,rdl_sd_sleep_movement_thresholds.csv,2025-04-08,15:02:03.328288,3,d4,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sd_sleep.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sd_sleep.mp4"">rdl_sd_sleep.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_w1118,sleeping,100,0,1599.54818940163,1599.54818940163,10,2025-04-10 16:26:53.336431,helicon_w1118_dont_forget_geiger_movement_thresholds.csv,2025-04-10,16:26:53.336431,4,d5,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_w1118_dont_forget_geiger.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_w1118_dont_forget_geiger.mp4"">helicon_w1118_dont_forget_geiger.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,18.44,1,1254.46448206902,1254.46448206902,11,2025-04-11 13:20:32.263695,rdl_w1118_sleeping_sd_yooo_movement_thresholds.csv,2025-04-11,13:20:32.263695,1,d6,1 / 2,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_sleeping_sd_yooo.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_sleeping_sd_yooo.mp4"">rdl_w1118_sleeping_sd_yooo.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,26.44,1,505.456016302109,505.456016302109,12,2025-04-11 13:50:19.299144,rdl_w1118_sd_sleeping_movement_thresholds (1).csv,2025-04-11,13:50:19.299144,1,d6,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,100,0,303.06839132309,303.06839132309,13,2025-04-11 15:38:14.136595,rdl_w1118_friday_afternoon_effect_is_there_aint_it_movement_thresholds.csv,2025-04-11,15:38:14.136595,3,d6,1 / 2 ,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_friday_afternoon_effect_is_there_aint_it.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_friday_afternoon_effect_is_there_aint_it.mp4"">rdl_w1118_friday_afternoon_effect_is_there_aint_it.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,100,0,1536.05164408684,1536.05164408684,15,2025-04-15 13:14:28.233297,rdl_sleeping_nearly_easter_movement_thresholds.csv,2025-04-15,13:14:28.233297,1,d8,1 / 2,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sleeping_nearly_easter.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sleeping_nearly_easter.mp4"">rdl_sleeping_nearly_easter.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,100,0,457.207432508469,457.207432508469,16,2025-04-15 14:04:37.222096,rdl_sleeping_please_do_not_drill_movement_thresholds.csv,2025-04-15,14:04:37.222096,2,d8,1 / 2,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sleeping_please_do_not_drill.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sleeping_please_do_not_drill.mp4"">rdl_sleeping_please_do_not_drill.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,100,0,1836.51796889305,1836.51796889305,17,2025-04-15 14:53:51.844062,heli_rdl_tuesday_pray_movement_thresholds.csv,2025-04-15,14:53:51.844062,2,d8,1 / 2,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/heli_rdl_tuesday_pray.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/heli_rdl_tuesday_pray.mp4"">heli_rdl_tuesday_pray.mp4</a>"
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,100,0,1277.2587351799,1277.2587351799,18,2025-04-15 15:24:22.804821,rdl_sleep_soon_it_will_rain_movement_thresholds.csv,2025-04-15,15:24:22.804821,3,d8,1 / 2,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sleep_soon_it_will_rain.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_sleep_soon_it_will_rain.mp4"">rdl_sleep_soon_it_will_rain.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,64,1,909.951712608337,909.951712608337,19,2025-04-15 15:47:05.058274,helicon_rdl_sleeping_3_in_there_movement_thresholds.csv,2025-04-15,15:47:05.058274,3,d8,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_sleeping_3_in_there.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_sleeping_3_in_there.mp4"">helicon_rdl_sleeping_3_in_there.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,100,0,1251.41628313065,1251.41628313065,21,2025-04-15 17:36:19.948069,rdl_w1118_sleeping_wapwapwapwap_movement_thresholds.csv,2025-04-15,17:36:19.948069,5,d8,1 / 2,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_sleeping_wapwapwapwap.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_sleeping_wapwapwapwap.mp4"">rdl_w1118_sleeping_wapwapwapwap.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,90.67,1,569.282093524933,569.282093524933,22,2025-04-15 18:02:22.721250,helicon_rdl_sleeping_toooosday_lesssssgo_movement_thresholds.csv,2025-04-15,18:02:22.72125,6,d8,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_sleeping_toooosday_lesssssgo.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_sleeping_toooosday_lesssssgo.mp4"">helicon_rdl_sleeping_toooosday_lesssssgo.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,70.66,1,1246.30575823784,1246.30575823784,23,2025-04-15 18:46:01.245321,helicon_rdl_last_of_the_day_presumably_movement_thresholds.csv,2025-04-15,18:46:01.245321,6,d8,2 / 2,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_last_of_the_day_presumably.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_last_of_the_day_presumably.mp4"">helicon_rdl_last_of_the_day_presumably.mp4</a>"
+helicon_rdl,sleeping,21.78,1,1215.3,1246.30575823784,24,2025-04-15 18:46:01.245321,helicon_rdl_last_of_the_day_presumably_movement_thresholds.csv,2025-04-15,18:46:01.245321,6,d8,2 / 2,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_last_of_the_day_presumably.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_last_of_the_day_presumably.mp4"">helicon_rdl_last_of_the_day_presumably.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,83.56,1,1017.81457924843,1017.81457924843,25,2025-04-15 19:44:33.980376,helicon_rdl_i_wanna_go_home_movement_thresholds.csv,2025-04-15,19:44:33.980376,7,d8,1 / 2,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_i_wanna_go_home.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_i_wanna_go_home.mp4"">helicon_rdl_i_wanna_go_home.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,67.33,1,526.065756320953,526.065756320953,27,2025-04-17 13:10:06.452309,rdl_w1118_sd_sleepin_movement_thresholds.csv,2025-04-17,13:10:06.452309,1,d9,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_sd_sleepin.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/rdl_w1118_sd_sleepin.mp4"">rdl_w1118_sd_sleepin.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,100,0,1141.57249236107,1141.57249236107,28,2025-04-17 16:00:45.393415,helicon_rdl_sleepin_movement_thresholds.csv,2025-04-17,16:00:45.393415,4,d9,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_sleepin.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_rdl_sleepin.mp4"">helicon_rdl_sleepin.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_w1118,sleeping,65.11,1,463.643099069595,463.643099069595,29,,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/same/helicon_w1118_sleepin_movement_thresholds.csv,,,4,d9,1 / 1,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/helicon_w1118_sleepin.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/helicon_w1118_sleepin.mp4"">helicon_w1118_sleepin.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,51.3,1,753.004528999329,753.004528999329,30,2025-05-14 16:06:03.764397,helicon_rdl_back_in_town_wednesday_hohoho_movement_thresholds.csv,2025-05-14,16:06:03.764397,4,d10,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helicon_rdl_back_in_town_wednesday_hohoho.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helicon_rdl_back_in_town_wednesday_hohoho.mp4"">helicon_rdl_back_in_town_wednesday_hohoho.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,100,0,303,565.783509016037,31,2025-05-14 17:21:39.007926,rdl_w1118_b_movement_thresholds.csv,2025-05-14,17:21:39.007926,5,d10,3 / 4,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_b.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_b.mp4"">rdl_w1118_b.mp4</a>"
+rdl_w1118,sleeping,100,0,562,565.783509016037,32,2025-05-14 17:21:39.007926,rdl_w1118_b_movement_thresholds.csv,2025-05-14,17:21:39.007926,5,d10,3 / 4,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_b.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_b.mp4"">rdl_w1118_b.mp4</a>"
+rdl_w1118,sleeping,100,0,565.783509016037,565.783509016037,33,2025-05-14 17:21:39.007926,rdl_w1118_b_movement_thresholds.csv,2025-05-14,17:21:39.007926,5,d10,3 / 4,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_b.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_b.mp4"">rdl_w1118_b.mp4</a>"
+rdl_w1118,sleeping,100,0,889.784338474274,889.784338474274,34,2025-05-14 17:54:47.441868,rdl_w1118_sleeper_hmm_movement_thresholds.csv,2025-05-14,17:54:47.441868,5,d10,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_sleeper_hmm.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_sleeper_hmm.mp4"">rdl_w1118_sleeper_hmm.mp4</a>"
+rdl_w1118,sleeping,88.89,1,441,889.784338474274,35,2025-05-14 17:54:47.441868,rdl_w1118_sleeper_hmm_movement_thresholds.csv,2025-05-14,17:54:47.441868,5,d10,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_sleeper_hmm.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_sleeper_hmm.mp4"">rdl_w1118_sleeper_hmm.mp4</a>"
+,,,,,,,,,,,,,,,
+rdl_w1118,sleeping,100,0,537,642.898441553116,36,2025-05-14 18:18:42.699166,rdl_w1118_2sleepy2furious_movement_thresholds.csv,2025-05-14,18:18:42.699166,6,d10,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_2sleepy2furious.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_2sleepy2furious.mp4"">rdl_w1118_2sleepy2furious.mp4</a>"
+rdl_w1118,sleeping,100,0,642.898441553116,642.898441553116,37,2025-05-14 18:18:42.699166,rdl_w1118_2sleepy2furious_movement_thresholds.csv,2025-05-14,18:18:42.699166,6,d10,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_2sleepy2furious.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_2sleepy2furious.mp4"">rdl_w1118_2sleepy2furious.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,100,0,726.642278909683,726.642278909683,38,2025-05-15 13:01:56.420625,helirdl_thursday_movement_thresholds.csv,2025-05-15,13:01:56.420625,1,d11,1 / 2,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helirdl_thursday.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helirdl_thursday.mp4"">helirdl_thursday.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,100,0,764,846.646690130234,39,2025-05-15 13:35:29.587243,helirdlthurrrs_movement_thresholds.csv,2025-05-15,13:35:29.587243,1,d11,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helirdlthurrrs.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helirdlthurrrs.mp4"">helirdlthurrrs.mp4</a>"
+helicon_rdl,sleeping,42.44,1,846.646690130234,846.646690130234,40,2025-05-15 13:35:29.587243,helirdlthurrrs_movement_thresholds.csv,2025-05-15,13:35:29.587243,1,d11,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helirdlthurrrs.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helirdlthurrrs.mp4"">helirdlthurrrs.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_rdl,sleeping,100,0,1293,1498.58526945114,41,2025-05-15 14:34:29.093475,heli_rdl_5_in_there_lessssgo_movement_thresholds.csv,2025-05-15,14:34:29.093475,2,d11,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/heli_rdl_5_in_there_lessssgo.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/heli_rdl_5_in_there_lessssgo.mp4"">heli_rdl_5_in_there_lessssgo.mp4</a>"
+helicon_rdl,sleeping,100,0,1498.58526945114,1498.58526945114,42,2025-05-15 14:34:29.093475,heli_rdl_5_in_there_lessssgo_movement_thresholds.csv,2025-05-15,14:34:29.093475,2,d11,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/heli_rdl_5_in_there_lessssgo.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/heli_rdl_5_in_there_lessssgo.mp4"">heli_rdl_5_in_there_lessssgo.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_w1118,sleeping,100,0,300,346.281857967377,43,2025-05-23 14:31:45.979999,heli_w1118_thirst_day_movement_thresholds.csv,2025-05-23,14:31:45.979999,2,d,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heli_w1118_thirst_day.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heli_w1118_thirst_day.mp4"">heli_w1118_thirst_day.mp4</a>"
+helicon_w1118,sleeping,100,0,346.281857967377,346.281857967377,44,2025-05-23 14:31:45.979999,heli_w1118_thirst_day_movement_thresholds.csv,2025-05-23,14:31:45.979999,2,d,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heli_w1118_thirst_day.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heli_w1118_thirst_day.mp4"">heli_w1118_thirst_day.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_w1118,sleeping,100,0,,,,,,,,,,,,
+rdl_w1118,sleeping,100,0,642.898441553116,642.898441553116,45,2025-05-14 18:18:42.699166,rdl_w1118_2sleepy2furious_movement_thresholds.csv,2025-05-14,18:18:42.699166,6,d10,1 / 5,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_2sleepy2furious.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_2sleepy2furious.mp4"">rdl_w1118_2sleepy2furious.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,,17.56,1,,608.74027466774,46,2025-05-20 16:09:41.050395,rdl_cheeewwwwsday_movement_thresholds.csv,2025-05-20,16:09:41.050395,4,d12,2 / 4,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_cheeewwwwsday.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_cheeewwwwsday.mp4"">rdl_cheeewwwwsday.mp4</a>"
+rdl_w1118,,100,0,608.74027466774,608.74027466774,47,2025-05-20 16:09:41.050395,rdl_cheeewwwwsday_movement_thresholds.csv,2025-05-20,16:09:41.050395,4,d,2 / 4,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_cheeewwwwsday.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_cheeewwwwsday.mp4"">rdl_cheeewwwwsday.mp4</a>"
+,,,,,,,,,,,,,,,
+rdl_w1118,,100,0,469.874905824661,469.874905824661,48,2025-05-20 16:11:13.777193,rdl_sleeping_tuesday_movement_thresholds.csv,2025-05-20,16:11:13.777193,4,d,1 / 5,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_sleeping_tuesday.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_sleeping_tuesday.mp4"">rdl_sleeping_tuesday.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_w1118,,100,0,1253.39199090004,1253.39199090004,49,2025-05-21 14:44:35.764560,sdsad_movement_thresholds.csv,2025-05-21,14:44:35.76456,2,d,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/sdsad.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/sdsad.mp4"">sdsad.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_w1118,,100,0,841.466349363327,841.466349363327,50,2025-05-21 15:09:16.010144,heliwed2_movement_thresholds.csv,2025-05-21,15:09:16.010144,3,d13,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heliwed2.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heliwed2.mp4"">heliwed2.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_w1118,,100,0,1910.49177622795,1910.49177622795,51,2025-05-21 16:01:31.697225,heliwed3_movement_thresholds.csv,2025-05-21,16:01:31.697225,4,d13,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heliwed3.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heliwed3.mp4"">heliwed3.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_w1118,,100,0,863.006639957428,863.006639957428,52,2025-05-21 17:22:58.885103,heliwedhmmm_movement_thresholds.csv,2025-05-21,17:22:58.885103,5,d13,1 / 4 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heliwedhmmm.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/heliwedhmmm.mp4"">heliwedhmmm.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,,100,0,304.012922763824,304.012922763824,53,2025-05-22 14:06:53.641207,rdl_thursd_movement_thresholds.csv,2025-05-22,14:06:53.641207,2,d14,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_thursd.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_thursd.mp4"">rdl_thursd.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,,100,0,300.6,498.478227138519,54,2025-05-22 14:35:04.027208,rdl_w1118_thursday_two_in_5_movement_thresholds.csv,2025-05-22,14:35:04.027208,2,d14,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_thursday_two_in_5.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_thursday_two_in_5.mp4"">rdl_w1118_thursday_two_in_5.mp4</a>"
+rdl_w1118,,100,0,498.478227138519,498.478227138519,55,2025-05-22 14:35:04.027208,rdl_w1118_thursday_two_in_5_movement_thresholds.csv,2025-05-22,14:35:04.027208,2,d14,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_thursday_two_in_5.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_w1118_thursday_two_in_5.mp4"">rdl_w1118_thursday_two_in_5.mp4</a>"
+rdl_w1118,,41.78,1,460.780601263046,460.780601263046,56,2025-05-22 15:36:11.373506,rdl_last_of_this_batch_movement_thresholds.csv,2025-05-22,15:36:11.373506,3,d14,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_last_of_this_batch.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_last_of_this_batch.mp4"">rdl_last_of_this_batch.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+rdl_w1118,,100,0,538.911561965942,538.911561965942,57,2025-05-22 16:41:28.883388,rdl_final_wildcard_movement_thresholds.csv,2025-05-22,16:41:28.883388,4,d14,1 / 2 ,/home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_final_wildcard.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/rdl_sleepin/jw/second_batch/rdl_final_wildcard.mp4"">rdl_final_wildcard.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_rdl,,69.33,1,866.256676435471,866.256676435471,58,2025-05-23 14:31:31.631728,helirdl_fuckfriday_movement_thresholds.csv,2025-05-23,14:31:31.631728,2,d15,1 / 3 ,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helirdl_fuckfriday.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/helirdl_fuckfriday.mp4"">helirdl_fuckfriday.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_rdl,,63.78,1,1061.39987778664,1061.39987778664,59,2025-05-23 15:02:59.659666,heli_rdl_friday_two_in_five_pray_to_god_movement_thresholds.csv,2025-05-23,15:02:59.659666,3,d15,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/heli_rdl_friday_two_in_five_pray_to_god.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/heli_rdl_friday_two_in_five_pray_to_god.mp4"">heli_rdl_friday_two_in_five_pray_to_god.mp4</a>"
+helicon_rdl,,55.55,1,911,1061.39987778664,60,2025-05-23 15:02:59.659666,heli_rdl_friday_two_in_five_pray_to_god_movement_thresholds.csv,2025-05-23,15:02:59.659666,3,d15,2 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/heli_rdl_friday_two_in_five_pray_to_god.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/second_batch/heli_rdl_friday_two_in_five_pray_to_god.mp4"">heli_rdl_friday_two_in_five_pray_to_god.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_rdl,,95.33,1,328.172267198563,328.172267198563,61,2025-03-18 15:02:29.000000,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_split_RDL_sleeping_tuesday_velocities.csv,2025-03-18,15:02:29,3,d1,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_rdl,,100,1,1374.15568494797,1374.15568494797,62,2025-03-18 15:25:58.000000,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_split_rdl_lfg_movement_thresholds.csv,2025-03-18,15:25:58,3,d1,2 / 3,/home/joeh/helicon_split_rdl_lfg.mp4,"<a href=""file:///home/joeh/helicon_split_rdl_lfg.mp4"">helicon_split_rdl_lfg.mp4</a>"
+helicon_rdl,,35.32,1,1374.15568494797,1374.15568494797,63,2025-03-18 15:25:58.000000,/home/joeh/helicon_split_RDL/ellens_flies/helicon_rdl_sleeping/jw/helicon_split_rdl_lfg_movement_thresholds.csv,2025-03-18,15:25:58,3,d1,2 / 3,/home/joeh/helicon_split_rdl_lfg.mp4,"<a href=""file:///home/joeh/helicon_split_rdl_lfg.mp4"">helicon_split_rdl_lfg.mp4</a>"
+,,,,,,,,,,,,,,,
+helicon_w1118,,100,0,309.272803068161,309.272803068161,64,27.5.25,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_last_second_last_movement_thresholds.csv,2025-05-27,15:04:52,5,d16,1 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_last_second_last.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/helicon_last_second_last.mp4"">helicon_last_second_last.mp4</a>"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+helicon_w1118,,100,0,629.881011724472,629.881011724472,65,27.5.25,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/last_of_the_helicans_movement_thresholds.csv,2025-05-27,17:31:21.0,5,d16,1 / 5,/home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/last_of_the_helicans.mp4,"<a href=""file:///home/joeh/helicon_split_RDL/ellens_flies/helicon_w1118_sleeping/jw/last_of_the_helicans.mp4"">last_of_the_helicans.mp4</a>"
